@@ -1,59 +1,121 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+## 🚀 Crypto Algorithm Detector
+A machine-learning powered system that automatically identifies whether a given text is encrypted, hashed, or plaintext — such as AES, RSA, SHA-256, Caesar Cipher, or unencrypted data.
 
-## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+## 📌 Title of the Project
+Crypto Algorithm Detector – Machine Learning–Based Cryptographic Classification System
 
-## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+A smart and automated cryptographic identification tool that uses machine learning to classify encrypted, hashed, or plain text. The system helps cybersecurity professionals, forensic analysts, and students quickly determine which cryptographic algorithm was used.
 
-## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+## 📖 About
+ The Crypto Algorithm Detector is a full-stack project designed to identify the underlying cryptographic algorithm behind a given text sample.
+In cybersecurity and digital forensics, analysts frequently encounter ciphertext or hashed values without any accompanying metadata. Manual identification is slow, error-prone, and requires expert knowledge.
+This project eliminates those challenges by integrating:
 
-## System Architecture
-<!--Embed the system architecture diagram as shown below-->
+      Machine Learning (Random Forest Classifier)
+      
+      Statistical Feature Extraction (Entropy, character frequency, randomness)
+      
+      Full-stack Web Application (Flask + HTML/CSS/JS)
+      
+      The detector takes any input text and predicts the algorithm used, helping analysts make quicker decisions and enabling students to practically understand cryptographic outputs.
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+## ⭐ Features
+
+🔐 Classifies AES, RSA, SHA-256, Caesar Cipher, and Plaintext
+
+🤖 Uses a trained Random Forest Machine Learning model
+
+⚡ Real-time prediction (< 1 second)
+
+📊 Extracts advanced statistical features (entropy, ASCII distribution, randomness score)
+
+🌐 Frontend–Backend integrated full-stack system
+
+📈 High scalability and extendable to more algorithms
+
+🧩 JSON-based structure for easy API integration
+
+🛠️ Lightweight Flask framework for deployment
+
+## 🖥️ Requirements
+
+## Software Requirements
+
+Operating System: Windows 10 / Ubuntu (64-bit recommended)
+
+Programming Language: Python 3.8 or later
+
+Backend Framework: Flask
+
+Machine Learning Libraries:
+
+scikit-learn
+
+NumPy
+
+Pandas
+
+## Additional Libraries:
+
+hashlib
+
+cryptography (for synthetic data generation)
+
+pickle (for model loading)
+
+Frontend: HTML5, CSS3, JavaScript
+
+IDE: VS Code / PyCharm
+
+## Hardware Requirements
+
+Processor: Minimum Intel i3 / AMD equivalent
+
+RAM: 4GB (8GB recommended for model training)
+
+Storage: At least 1GB for datasets and logs
+
+## 🏗️ System Architecture
+
+Below is the architecture workflow of your Crypto Algorithm Detector:
+
+<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/79c9868b-85bb-4fff-81cf-0da2313452f8" />
 
 
-## Output
+🖼️ Output
+Output 1 – ML Prediction Interface
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
-
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
-
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
-
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+<img width="1890" height="1035" alt="image" src="https://github.com/user-attachments/assets/dfe24be7-88c9-4f07-a073-139f99c5b4bc" />
 
 
-## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
-
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
-
-## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
+Output 2 – Entropy & Feature Calculation & Detection Accuracy:
+<img width="921" height="781" alt="image" src="https://github.com/user-attachments/assets/9c85c522-74a8-49e5-a737-0951474cbcc0" />
 
 
 
+## 📊 Results and Impact
 
+The Crypto Algorithm Detector significantly improves the speed and accuracy of identifying encryption methods.
+The system:
+
+Enhances cyber-forensic investigations
+
+Helps students learn cryptographic patterns
+
+Supports CTF competitions where fast crypto identification is crucial
+
+Enables automated, reliable, and real-time classification
+
+It also serves as a foundation for building more advanced cybersecurity automation tools.
+
+## 📚 Articles Published / References
+
+Scikit-learn Developers, “Random Forest Classifier Documentation,” 2024.
+
+Shannon, C. E., “Communication Theory of Secrecy Systems,” Bell Labs, 1949.
+
+Flask Official Documentation, Pallets Framework, 2024.
+
+Dwyl Organization, “English Word List Repository,” GitHub, 2023.
+
+Python Cryptography Library Documentation, 2024.
